@@ -1,0 +1,43 @@
+
+/* Add your profile image here */
+.Photo{
+    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+/* Projects Photo */
+.project1{
+    background-image: url('https://blogger-fest-frontend.vercel.app/images/home/blacklogo.svg');
+    cursor: none;    
+}
+.project2{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+    cursor: none;
+}
+.project3{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
+    cursor: none;
+}
+.project4{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
+    cursor: none;
+}
+.project5{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
+    cursor: none;
+}
+.project6{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
+    cursor: none;
+}
+/* Miscelaneous Activities photo */
+.on-going1{
+    background-image: url('../images/timeline-logo.jpg');
+    cursor: none;
+}
+.misc2{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
+    cursor: none;
+}
+.misc3{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+    cursor: none;
+}
