@@ -20,7 +20,7 @@ const About = () => {
                 <div className="row d-flex justify-content-center skills">
                     {skillsBar.map((x) => 
                         <Skills key={x.name} faClass={x.faClass} svg={x.svg} label={x.name}/>
-                    )}̀
+                    )}
                 </div> 
             </div>
         </div>

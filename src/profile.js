@@ -19,15 +19,15 @@ const background = {
 // To update your image, go to './styles/images.css'
 const section2title = 'About Me';
 const about = {
-  paragraph: `Mai toh bss Krishna bhakt hu!!
-Self-taught.
-A Diligent Coder.
-Chess player.
-Gym.
-Future Entrepreneur.
-Future Scientist.
-For a good change and love. ❤
-Always with good people. 😇`
+  paragraph: `Bss Krishna bhakt hu!!\n
+              Self-taught.\n
+              A Diligent Coder.\n
+              Chess player.\n
+              Gym.\n
+              Future Entrepreneur.\n
+              Future Scientist.\n
+              For a good change and love. ❤\n
+              Always with good people. 😇`
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -65,22 +65,52 @@ const skillsBar = [
   },
   {
     name: 'MongoDB',
-    svg: [
-      {
-        fill: '#599636',
-        path: 'M15.9.087l.854 1.604c.192.296.4.558.645.802.715.715 1.394 1.464 2.004 2.266 1.447 1.9 2.423 4.01 3.12 6.292.418 1.394.645 2.824.662 4.27.07 4.323-1.412 8.035-4.4 11.12-.488.488-1.01.94-1.57 1.342-.296 0-.436-.227-.558-.436-.227-.383-.366-.82-.436-1.255-.105-.523-.174-1.046-.14-1.586v-.244C16.057 24.21 15.796.21 15.9.087z'
-      },
-      {
-        fill: '#6cac48',
-        path: 'M15.9.034c-.035-.07-.07-.017-.105.017.017.35-.105.662-.296.96-.21.296-.488.523-.767.767-1.55 1.342-2.77 2.963-3.747 4.776-1.3 2.44-1.97 5.055-2.16 7.808-.087.993.314 4.497.627 5.508.854 2.684 2.388 4.933 4.375 6.885.488.47 1.01.906 1.55 1.325.157 0 .174-.14.21-.244a4.78 4.78 0 0 0 .157-.68l.35-2.614L15.9.034z'
-      },
-      {
-        fill: '#c2bfbf',
-        path: 'M16.754 28.845c.035-.4.227-.732.436-1.063-.21-.087-.366-.26-.488-.453-.105-.174-.192-.383-.26-.575-.244-.732-.296-1.5-.366-2.248v-.453c-.087.07-.105.662-.105.75a17.37 17.37 0 0 1-.314 2.353c-.052.314-.087.627-.28.906 0 .035 0 .07.017.122.314.924.4 1.865.453 2.824v.35c0 .418-.017.33.33.47.14.052.296.07.436.174.105 0 .122-.087.122-.157l-.052-.575v-1.604c-.017-.28.035-.558.07-.82z'
-      }
-    ]
-    // faClass: 'fas fa-database'
-  }
+    faClass: 'fas fa-database'
+  },
+  {
+    name: 'DevOps',
+    faClass: 'fas fa-server'
+  },
+  {
+    name: 'Problem Solving',
+    faClass: 'fas fa-lightbulb'
+  },
+  {
+    name: 'Docker',
+    faClass: 'fab fa-docker'
+  },
+  {
+    name: 'Windows',
+    faClass: 'fab fa-windows'
+  },
+  {
+    name: 'Spotify',
+    faClass: 'fab fa-spotify'
+  },
+  {
+    name: 'Yarn',
+    faClass: 'fab fa-yarn'
+  },
+  {
+    name: 'Ubuntu',
+    faClass: 'fab fa-ubuntu'
+  },
+  {
+    name: 'Stripe',
+    faClass: 'fab fa-stripe-s'
+  },
+  {
+    name: 'Digital Ocean',
+    faClass: 'fab fa-digital-ocean'
+  },
+  {
+    name: 'AWS',
+    faClass: 'fab fa-aws'
+  },
+  {
+    name: 'Stack Overflow',
+    faClass: 'fab fa-stack-overflow'
+  },
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
@@ -104,6 +134,42 @@ const projects = [
       'Express'
     ],
     url: 'https://blogger-fest-frontend.vercel.app/'
+  },
+  {
+    // Add image in './styles/images.css' in #project1
+    id: 'project2',
+    name: `You can help today`,
+    skills: [
+      'HTML5',
+      'CSS3',
+      'Javascript',
+      'React',
+      'Nextjs',
+      'Heroku',
+      'Git',
+      'Github',
+      'MongoDB'
+    ],
+    url: 'https://youcanhelptoday.vercel.app/'
+  },
+  {
+    // Add image in './styles/images.css' in #project1
+    id: 'project3',
+    name: `TeleChat`,
+    skills: [
+      'HTML5',
+      'CSS3',
+      'Javascript',
+      'Socket.io',
+      'React',
+      'Heroku',
+      'Git',
+      'Github',
+      'MongoDB',
+      'Express',
+      'Node'
+    ],
+    url: 'https://telechat-my.vercel.app/'
   }
 ];
 // Edit your Miscellaneous Activities, its name and the url.
@@ -116,6 +182,24 @@ const miscellaneous = [
     id: 'on-going1',
     name: 'Timeline Social',
     url: 'https://github.com/timeline-social'
+  },
+  {
+    // Add image in './styles/images.css' in #misc1
+    id: 'on-going2',
+    name: 'MarketZi',
+    url: 'https://app.marketzi.com/'
+  },
+  {
+    // Add image in './styles/images.css' in #misc1
+    id: 'on-going3',
+    name: 'Impresiot',
+    url: 'https://impresiot.com/'
+  },
+  {
+    // Add image in './styles/images.css' in #misc1
+    id: 'on-going4',
+    name: 'We are engineers',
+    url: 'https://werengineers.vercel.app/'
   }
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
@@ -124,19 +208,19 @@ const miscellaneous = [
 const section5Title = 'Get in Touch';
 const contact = {
   pitch:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.',
+    'I am always open to new opportunities and challenges. If you have any questions, please feel free to contact me.',
   copyright: 'Lokesh Kabra',
-  contactUrl: ''
+  contactUrl: 'https://formspree.io/f/xzbwvpyd'
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: 'https://github.com',
-  facebook: 'https://facebook.com',
-  // twitter: "https://twitter.com",
-  instagram: 'https://instagram.com',
-  linkedin: 'https://linkedin.com',
-  resume: 'https://novoresume.com/'
+  github: 'https://github.com/lokesh-developer',
+  // facebook: 'https://facebook.com',
+  twitter: "https://twitter.com/lokesh__kabra",
+  instagram: 'https://instagram.com/lokesh_kabra',
+  linkedin: 'https://linkedin.com/in/lokeshkabra',
+  // resume: 'https://novoresume.com/'
 };
 // Dont change anything here
 export {

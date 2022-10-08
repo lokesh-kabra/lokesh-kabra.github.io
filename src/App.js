@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <Header />
       <Particles />
-      <About />
+      <About /> 
       <Works />
       <Contact />
     </div>

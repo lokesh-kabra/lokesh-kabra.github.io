@@ -228,7 +228,8 @@ button:focus {
   display: block;
   margin: 3rem 3rem 0 3rem;
   background-color: #fff;
-  max-height: 80vh;
+  max-height: 100vh;
+  height: fit-content;
 }
 .git-head-div {
   box-sizing: border-box;
@@ -449,7 +450,7 @@ input:checked + .slider:before {
     blinkTextCursor 0.5s steps(27) infinite normal;
 }
 .parallax {
-  background-image: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url('https://cdn1.epicgames.com/ue/product/Screenshot/Night-1920x1080-f152421feea096962104198b0378ebe7.png?resize=1&w=1920');
 }
 @keyframes typewriter {
   from {

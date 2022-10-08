@@ -1,7 +1,10 @@
 
 /* Add your profile image here */
+body{
+    overflow-x: hidden;
+}
 .Photo{
-    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('https://media-exp1.licdn.com/dms/image/C4D03AQE29ogJCprAtw/profile-displayphoto-shrink_400_400/0/1653361484846?e=1670457600&v=beta&t=D5wYkqEiurBmyZclVRV2kEqpCc5lnOBgmDyLzJOMfyw');
 }
 /* Projects Photo */
 .project1{
@@ -9,11 +12,11 @@
     cursor: none;    
 }
 .project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+    background-image: url('https://youcanhelptoday.vercel.app/logo-96x96.webp');
     cursor: none;
 }
 .project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
+    background-image: url('https://telechat-my.vercel.app/logo.png');
     cursor: none;
 }
 .project4{
@@ -31,13 +34,17 @@
 /* Miscelaneous Activities photo */
 .on-going1{
     background-image: url('../images/timeline-logo.jpg');
-    cursor: none;
+    cursor: progress;
 }
-.misc2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
-    cursor: none;
+.on-going2{
+    background-image: url('https://app.marketzi.com/logo310.png');
+    cursor: progress;
 }
-.misc3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
-    cursor: none;
+.on-going3{
+    background-image: url('https://impresiot.com/logo96.png');
+    cursor: progress;
+}
+.on-going4{
+    background-image: url('https://media-exp1.licdn.com/dms/image/C4D0BAQHE4VhYWyoRPg/company-logo_100_100/0/1662460739270?e=1673481600&v=beta&t=NzKVmO2vvYdB6d6iVnuWlHMlYpWBaA81dTGni_LDBJA');
+    cursor: progress;
 }

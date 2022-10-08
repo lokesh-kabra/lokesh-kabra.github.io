@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = ({ id, name, url, skills }) => {
   return (
-    <div data-aos="fade-up" className=" col-12 col-lg-4 project-card">
+    <div data-aos="fade-up" className="mr-5 col-12 col-lg-4 project-card">
       <div className="image-project">
         <div className={`img-pro ${id}`}></div>
       </div>
