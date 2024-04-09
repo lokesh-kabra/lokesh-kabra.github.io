@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { Spotlight } from "../ui/Spotlight";
-import { SparklesCore } from "../ui/sparkles";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
 const words = `In this journey of life, I find myself immersed in the pursuit of self-discovery and personal growth, guided by my devotion to Krsna and a deep-rooted commitment to self-obedience and the acquisition of knowledge. I am a self-taught individual, resilient in the face of challenges, and adept at coding, much like a chess player strategizing each move.
@@ -29,14 +28,6 @@ export function TextGenerateEffectDemo() {
                     alt="me"
                 />
             </div>
-            <SparklesCore
-                background="transparent"
-                minSize={0.4}
-                maxSize={1}
-                particleDensity={1200}
-                className="w-full h-full"
-                particleColor="#FFFFFF"
-            />
         </div>
     )
 }
