@@ -41,7 +41,7 @@ jobs:
           elif [ -f "${{ github.workspace }}/package.json" ]; then
             echo "::set-output name=manager::npm"
             echo "::set-output name=command::ci --force"
-            echo "::set-output name=runner::npx --no-install"
+            echo "::set-output name=runner::build"
             exit 0
           else
             echo "Unable to determine packager manager"
