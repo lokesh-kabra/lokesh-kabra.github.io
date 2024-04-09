@@ -1,0 +1,50 @@
+
+/* Add your profile image here */
+body{
+    overflow-x: hidden;
+}
+.Photo{
+    background-image: url('https://media-exp1.licdn.com/dms/image/D4D03AQHcEap-DpRReg/profile-displayphoto-shrink_200_200/0/1665766142939?e=1673481600&v=beta&t=FJ0WmFcFv2-nkAoGN6Ot1D91Uh7FxM_hpFrcZ8DmxP4');
+}
+/* Projects Photo */
+.project1{
+    background-image: url('https://blogger-fest-frontend.vercel.app/images/home/blacklogo.svg');
+    cursor: none;    
+}
+.project2{
+    background-image: url('https://youcanhelptoday.vercel.app/logo-96x96.webp');
+    cursor: none;
+}
+.project3{
+    background-image: url('https://telechat-my.vercel.app/logo.png');
+    cursor: none;
+}
+.project4{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
+    cursor: none;
+}
+.project5{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
+    cursor: none;
+}
+.project6{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
+    cursor: none;
+}
+/* Miscelaneous Activities photo */
+.on-going1{
+    background-image: url('../images/timeline-logo.jpg');
+    cursor: progress;
+}
+.on-going2{
+    background-image: url('https://app.marketzi.com/logo310.png');
+    cursor: progress;
+}
+.on-going3{
+    background-image: url('https://impresiot.com/logo96.png');
+    cursor: progress;
+}
+.on-going4{
+    background-image: url('https://media-exp1.licdn.com/dms/image/C4D0BAQHE4VhYWyoRPg/company-logo_100_100/0/1662460739270?e=1673481600&v=beta&t=NzKVmO2vvYdB6d6iVnuWlHMlYpWBaA81dTGni_LDBJA');
+    cursor: progress;
+}
