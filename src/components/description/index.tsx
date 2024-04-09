@@ -14,11 +14,11 @@ In this quest, I am surrounded by good-hearted individuals who inspire me with t
 export function TextGenerateEffectDemo() {
     return (
         <div className="relative m-20">
-            
+
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
                 About Me
             </h1>
-            
+
             <div className="flex lg:flex-row flex-col">
                 <TextGenerateEffect words={words} />
                 <Image
@@ -30,11 +30,10 @@ export function TextGenerateEffectDemo() {
                 />
             </div>
             <SparklesCore
-                id="tsparticlesfullpage"
                 background="transparent"
-                minSize={0.6}
-                maxSize={1.4}
-                particleDensity={100}
+                minSize={0.4}
+                maxSize={1}
+                particleDensity={1200}
                 className="w-full h-full"
                 particleColor="#FFFFFF"
             />
