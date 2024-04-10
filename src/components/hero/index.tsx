@@ -10,93 +10,68 @@ export const products = [
     title: "D Labs",
     link: "https://dilatelabs.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "/dlabs.png",
   },
   {
     title: "We Are Engineer",
     link: "https://weareengineer.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "/wae.png",
+  },
+  {
+    title: "Market Zi",
+    link: "https://app.marketzi.com",
+    thumbnail:
+      "/marketzi.png",
   },
   {
     title: "Impresiot",
     link: "https://impresiot.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-  },
-
-  {
-    title: "Market Zi",
-    link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "/impresiot.png",
   },
   {
-    title: "3D Housemap",
-    link: "https://editrix.ai",
+    title: "Bloggers Fest",
+    link: "https://blogger-fest-frontend.vercel.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+      "/bfest.png",
   },
+  
+  
   {
     title: "Labs Platform",
     link: "https://labs.dilatelabs.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
-  },
-
-  {
-    title: "Confidential Project 1",
-    link: "/",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "/labsd.png",
   },
   {
-    title: "Confidential Project 2",
-    link: "/",
+    title: "3D Housemap",
+    link: "https://3-d-housemap-new-rho.vercel.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+      "/3dhousemap.png",
+  },
+  {
+    title: "iEditor X",
+    link: "https://ieditor-x.vercel.app/",
+    thumbnail:
+      "/editorx.png",
+  },
+  {
+    title: "Pay Per Reel",
+    link: "https://payperreel.vercel.app/",
+    thumbnail:
+      "/ppr.png",
   },
   {
     title: "Confidential Project 3",
     link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+      "",
   },
   {
     title: "Confidential Project 4",
     link: "/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
-  },
-
-  {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+      "",
   },
 ];

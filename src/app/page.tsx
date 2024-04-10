@@ -1,4 +1,5 @@
 import { TextGenerateEffectDemo } from "@/components/description";
+import { Footer } from "@/components/footer";
 import { HeroParallaxDemo } from "@/components/hero";
 import { ItsMe } from "@/components/itsme";
 import { MoreSections } from "@/components/more-sections";
@@ -15,6 +16,7 @@ export default function Home() {
       <ItsMe />
       <TabsDemo />
       <MoreSections />
+      <Footer />
     </>
   );
 }

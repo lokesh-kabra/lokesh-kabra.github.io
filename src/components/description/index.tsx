@@ -11,7 +11,7 @@ In this quest, I am surrounded by good-hearted individuals who inspire me with t
 
 export function TextGenerateEffectDemo() {
     return (
-        <div className="relative m-20">
+        <div className="relative lg:m-20 m-5">
 
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
                 About Me
@@ -23,7 +23,7 @@ export function TextGenerateEffectDemo() {
                     height="400"
                     width="400"
                     src="/lokesh.jpeg"
-                    className="ml-5 h-[25rem] w-[25rem] inset-0"
+                    className="ml-5 lg:h-[25rem] lg:w-[25rem] w-[20rem] h-[20rem]  inset-0"
                     alt="me"
                 />
             </div>
