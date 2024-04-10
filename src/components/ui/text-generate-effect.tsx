@@ -19,15 +19,15 @@ export const TextGenerateEffect = ({
         "span",
         {
           opacity: 1,
+          width: "fit-content",
         },
         {
-          duration: 2,
+          duration: 0.6,
           delay: stagger(0.2),
           ease: "easeInOut",
         }
       );
     }
-
   }, [isInView]);
 
   const renderWords = () => {
@@ -36,14 +36,17 @@ export const TextGenerateEffect = ({
         {wordsArray.map((word, idx) => {
           return (
             <motion.span
-              initial={{
-                opacity: 0,
-              }}
-              transition={{
-                duration: 0.8,
-                repeat: Infinity,
-                repeatType: "reverse",
-              }}
+            initial={{
+              width: "0%",
+            }}
+            whileInView={{
+              width: "fit-content",
+            }}
+            transition={{
+              duration: 0.3,
+              ease: "linear",
+              delay: 1,
+            }}
               key={word + idx}
               className="dark:text-white text-black opacity-0"
             >
