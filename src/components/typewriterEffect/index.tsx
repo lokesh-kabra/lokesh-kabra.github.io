@@ -22,7 +22,7 @@ export function TypewriterEffectSmoothDemo() {
   return (
     <div className="flex flex-col items-center justify-center  ">
       <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
-        Reinventing a great future with a combination of tech and spiritual
+      Crafting a brighter future through the fusion of technology and spirituality.
       </p>
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
