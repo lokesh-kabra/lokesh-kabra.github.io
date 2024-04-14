@@ -48,7 +48,7 @@ export const TextGenerateEffect = ({
               delay: 1,
             }}
               key={word + idx}
-              className="dark:text-white text-black opacity-0"
+              className="dark:text-white whitespace-pre-wrap text-black opacity-0"
             >
               {word}{" "}
             </motion.span>

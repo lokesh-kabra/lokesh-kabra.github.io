@@ -23,7 +23,7 @@ export function TextGenerateEffectDemo() {
                     height="400"
                     width="400"
                     src="/lokesh.jpeg"
-                    className="ml-5 lg:h-[25rem] lg:w-[25rem] w-[20rem] h-[20rem]  inset-0"
+                    className="lg:ml-5 lg:mt-0 mt-5 lg:h-[25rem] lg:w-[25rem] w-[20rem] h-[20rem]  inset-0"
                     alt="me"
                 />
             </div>
