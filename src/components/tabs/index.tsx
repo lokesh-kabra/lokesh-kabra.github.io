@@ -11,7 +11,7 @@ My workshops and sessions are designed to be interactive and informative, provid
   
 By sharing my expertise and experiences, I aim to inspire others to pursue their passions and unlock their full potential. Whether you're looking to enhance your technical skills or embark on a new entrepreneurial journey, my workshops and sessions are designed to guide you every step of the way.`
 
-  const webApp = `Web 6 App Development: Specializing in sleek, functional web applications, I create sites and mobile apps that not only look great but also work seamlessly. Whether it's an e-commerce platform or a content management system, I deliver projects with precision and excellence, tailored to meet your business needs.
+  const webApp = `Web & App Development: Specializing in sleek, functional web applications, I create sites and mobile apps that not only look great but also work seamlessly. Whether it's an e-commerce platform or a content management system, I deliver projects with precision and excellence, tailored to meet your business needs.
   
 AI Development: At the forefront of AI innovation, I develop intelligent solutions that drive value and growth. From natural language processing to predictive analytics, my AI services are designed to enhance efficiency and unlock new possibilities for businesses across industries.
   
