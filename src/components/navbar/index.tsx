@@ -20,7 +20,7 @@ function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="D:) Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="#web-mobile-dev">Web & App Development</HoveredLink>
+            <HoveredLink href="#web-mobile-dev">Web, App, AI, ML & IoT Development</HoveredLink>
             <HoveredLink href="#interface-design">Interface Design</HoveredLink>
             <HoveredLink href="#seo">Search Engine Optimization</HoveredLink>
             <HoveredLink href="#branding">Branding</HoveredLink>
@@ -32,13 +32,13 @@ function Navbar({ className }: { className?: string }) {
             <ProductItem
               title="D Labs"
               href="https://dilatelabs.com"
-              src="https://assets.aceternity.com/demos/algochurn.webp"
+              src="/dlabs.png"
               description="A project on healthcare aims to connect small & medium scale laboratories."
             />
             <ProductItem
               title="We Are Engineer"
               href="https://weareengineer.com"
-              src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
+              src="/wae.png"
               description="Responsible for betterment in engineering."
             />
           </div>
