@@ -13,7 +13,7 @@ By sharing my expertise and experiences, I aim to inspire others to pursue their
 
   const webApp = `Web 6 App Development: Specializing in sleek, functional web applications, I create sites and mobile apps that not only look great but also work seamlessly. Whether it's an e-commerce platform or a content management system, I deliver projects with precision and excellence, tailored to meet your business needs.
   
-  AI Development: At the forefront of AI innovation, I develop intelligent solutions that drive value and growth. From natural language processing to predictive analytics, my AI services are designed to enhance efficiency and unlock new possibilities for businesses across industries.
+AI Development: At the forefront of AI innovation, I develop intelligent solutions that drive value and growth. From natural language processing to predictive analytics, my AI services are designed to enhance efficiency and unlock new possibilities for businesses across industries.
   
 IoT Development: Transforming the way we interact with technology, I specialize in IoT development. From smart home devices to industrial solutions, I create interconnected systems that analyze and act on data in real-time, driving innovation and enhancing user experiences.`
 
